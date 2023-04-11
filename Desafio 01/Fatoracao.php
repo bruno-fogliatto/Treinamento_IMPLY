@@ -4,7 +4,7 @@
 
     $fator = fatorar($num);
 
-    echo ($fator);
+    echo ("O resultado da fatorial é:  ".$fator."\n");
 
 
     function fatorar ($num){
