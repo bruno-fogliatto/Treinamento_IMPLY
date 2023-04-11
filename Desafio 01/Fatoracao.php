@@ -1,10 +1,10 @@
 <?php
-    $num = 10;
+    $num =  (int)readline("Informe um valor:");
 
 
     $fator = fatorar($num);
 
-    var_dump($fator);
+    echo ($fator);
 
 
     function fatorar ($num){
