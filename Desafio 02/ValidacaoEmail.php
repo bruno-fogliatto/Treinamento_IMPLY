@@ -9,7 +9,7 @@
 
     function validar($mail){
         if(!empty($mail)){
-            $regexp = "/^([a-zA-Z0-9\.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/";
+            $regexp = "/^([a-zA-Z0-9\._-]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/";
 
             if(preg_match($regexp, $mail)){
                 return true;
